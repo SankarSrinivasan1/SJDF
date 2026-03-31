@@ -135,3 +135,65 @@ You can clearly see:
 ✅ Readability → much closer to how humans think
 
 ✅ Same data fidelity as JSON
+
+---
+
+## Mixed Arrays (Different Data Types)
+
+### JSON
+
+```bash
+{
+  "mixed": [1, "two", true, null, {"key": "value"}, [10, 20]]
+}
+```
+
+### SJDF
+
+```bash
+mixed:
+  - 1
+  - "two"
+  - true
+  - null
+  - key: value
+  - 
+    - 10
+    - 20
+```
+
+---
+
+
+## Deeply Nested Structure
+
+### JSON
+
+```bash
+{
+  "a": {
+    "b": {
+      "c": {
+        "d": {
+          "e": {
+            "value": 42
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+### SJDF
+
+```bash
+a:
+  b:
+    c:
+      d:
+        e:
+          value: 42
+```
+
+---
