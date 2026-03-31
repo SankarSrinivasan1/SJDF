@@ -75,6 +75,7 @@ skills: [stocks, options, risk]
 skills:
 - stocks
 - options
+- risk
 ```
 
 Each array item in block format MUST begin with a hyphen (`-`).
@@ -102,3 +103,81 @@ Strings MAY be unquoted unless they:
 - Could be misinterpreted as another type
 
 Example:
+
+```bash
+city: "New York"
+```
+
+---
+
+### 4.6 Comments
+
+Comments begin with `#` and continue to the end of the line:
+
+```bash
+This is a comment
+```
+
+Parsers MUST ignore comments.
+
+---
+
+## 5. Indentation Rules
+
+- Spaces MUST be used for indentation (tabs are discouraged)
+- Each level of nesting increases indentation
+- All sibling elements MUST use the same indentation level
+- Inconsistent indentation MUST result in a parsing error
+
+---
+
+## 6. Parsing Model
+
+An SJDF parser MUST:
+
+1. Process input line-by-line
+2. Determine structure using indentation levels
+3. Split key-value pairs at the first `:` delimiter
+4. Construct a hierarchical data structure
+5. Infer data types dynamically
+
+---
+
+## 7. Error Handling
+
+Parsers SHOULD detect and report:
+
+- Inconsistent indentation levels
+- Invalid or malformed array syntax
+- Missing or invalid key-value pairs
+- Unexpected structure transitions
+
+Parsers MAY provide descriptive error messages for debugging.
+
+---
+
+## 8. Comparison with JSON
+
+| Feature        | JSON   | SJDF  |
+|---------------|--------|--------|
+| Readability   | Medium | High   |
+| Syntax Noise  | High   | Low    |
+| Error-prone   | High   | Lower  |
+| Parsing Ease  | Medium | High   |
+
+---
+
+## 9. Future Extensions
+
+Potential enhancements to SJDF include:
+
+- Schema validation support
+- Explicit type annotations
+- Streaming and large file handling
+- Binary encoding for performance optimization
+
+---
+
+## 10. Conclusion
+
+SJDF provides a simplified, human-first alternative to traditional data formats. By reducing syntactic overhead and emphasizing clarity, SJDF aims to improve developer productivity and reduce common data-related errors while remaining practical for modern systems.
