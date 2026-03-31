@@ -35,7 +35,7 @@ SJDF fixes that.
     "skills": ["stocks", "options"]
   }
 }
-
+```
 ---
 
 ### SJDF
