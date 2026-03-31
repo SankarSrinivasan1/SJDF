@@ -1,5 +1,5 @@
 # SJDF
-# SJDF: ![API Security for AI Applications](https://github.com/SankarSrinivasan1/SJDF/images/SJDF.png]
+# ![SJDF](https://github.com/SankarSrinivasan1/SJDF/images/SJDF.png)
 SJDF — Simple Just Data Format. A ridiculously simple alternative to JSON. No commas. No bracket confusions. Just clean, human-readable data.
 
 # SJDF — Simple Just Data Format
