@@ -39,7 +39,8 @@ SJDF fixes that.
 ---
 
 ### SJDF
-```sjdf
+
+```bash
 user:
   name: Sankar
   age: 58
