@@ -49,9 +49,10 @@ user:
 
 ---
 
-### Rules
+## Rules
 
-Key-Value
+### Key-Value
+
 '''bash
 key: value
 ```
