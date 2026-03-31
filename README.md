@@ -49,47 +49,54 @@ user:
 
 ---
 
-## Rules
+### Features
+- Minimal syntax
+- No commas
+- Optional quotes
+- Supports nesting
+- Supports arrays
+- Easy to parse
 
-### Key Value
+---
 
-'''bash
-key: value
-```
+## Installation
 
-### No quotes unless needed
+### JavaScript
 
 ```bash
-name: John
-city: "New York"   # space → quotes required
+git clone https://github.com/yourname/sjdf
+cd sjdf/js
+node test.js
 ```
 
-### Nesting via indentation
+---
 
+### Python
+
+```bash
+git clone https://github.com/yourname/sjdf
+cd sjdf/python
+python test.py
+```
+
+### Syntax Rules
+- ```key: value```
+- Indentation defines structure
+- Arrays use ```[a, b, c]``` or ```- list```
+- Comments start with #
+
+---
+
+### Example File
 ```bash
 user:
   name: John
+  age: 35
+  trader: true
+  skills:
+    - stocks
+    - options
+    - risk
 ```
 
-### Arrays (clean style)
-
-```bash
-skills: [stocks, options, risk]
-```
-
-OR
-
-```bash
-skills:
-  - stocks
-  - options
-  - risk
-```
-
-### No trailing commas (big win)
-
-### Comments allowed
-
-```bash
-# This is valid
-```
+---
