@@ -103,6 +103,51 @@ user:
 
 ### ©
 
-> SJDF™ (Simple Just Data Format) is an original data format designed to simplify structured data beyond JSON. Developed by Sankar Srinivasan, petra.srini@gmail.com
+> SJDF™ (Simple Just Data Format) is an original data format designed to simplify structured data beyond JSON. Developed by Sankar Srinivasan, petra.srini@gmail.com, https://beacons.ai/sankarsrinivasan 
 
 ---
+
+## Why I Built SJDF
+
+I didn’t wake up one day thinking,
+“Let’s invent a new data format.”
+
+This came from getting feedback from the developers, those are in Algorithmic Trading. 
+
+Debugging APIs where one missing comma broke everything.  
+Looking at nested JSON that felt harder to read than code.  
+Spending more time fixing syntax than solving real problems.
+
+JSON is powerful.
+
+But it’s not simple.
+
+It won because it was better than XML — not because it was perfect.
+
+At some point, I started asking:
+
+What would a data format look like if we designed it for humans first?
+
+Not machines.  
+Not legacy systems.  
+Not backward compatibility.
+
+Just clarity.
+
+That’s how SJDF started.
+
+A small idea:
+- Remove noise  
+- Reduce mistakes  
+- Make structure obvious  
+
+SJDF is not trying to replace JSON overnight.
+
+It’s trying to challenge a habit.
+
+If it makes even one developer pause and think,
+“Why is this so complicated?”  
+
+Then it’s already working.
+
+---> Sankar Srinivasan 
