@@ -115,7 +115,7 @@ city: "New York"
 Comments begin with `#` and continue to the end of the line:
 
 ```bash
-This is a comment
+# This is a comment
 ```
 
 Parsers MUST ignore comments.
