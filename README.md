@@ -1,5 +1,5 @@
 # SJDF
-SJDF — Simple Just Data Format. A ridiculously simple alternative to JSON. No commas. No bracket chaos. Just clean, human-readable data.
+SJDF — Simple Just Data Format. A ridiculously simple alternative to JSON. No commas. No bracket confusions. Just clean, human-readable data.
 
 # SJDF — Simple Just Data Format
 
@@ -30,8 +30,8 @@ SJDF fixes that.
 ```json
 {
   "user": {
-    "name": "Sankar",
-    "age": 58,
+    "name": "John",
+    "age": 35,
     "skills": ["stocks", "options"]
   }
 }
@@ -42,7 +42,45 @@ SJDF fixes that.
 
 ```bash
 user:
-  name: Sankar
-  age: 58
+  name: John
+  age: 35
   skills: [stocks, options]
+```
+
+---
+
+### Rules
+1. Key-Value
+'''bash
+key: value
+```
+
+### No quotes unless needed
+```bash
+name: Sankar
+city: "New York"   # space → quotes required
+```
+
+### Nesting via indentation
+```bash
+user:
+  name: Sankar
+```
+
+### Arrays (clean style)
+```bash
+skills: [stocks, options, risk]
+```
+OR
+```bash
+skills:
+  - stocks
+  - options
+```
+
+###No trailing commas (big win)
+
+###Comments allowed
+```bash
+# This is valid
 ```
