@@ -102,8 +102,7 @@ user:
 ---
 
 ### ©
-```bash 
-SJDF™ is an original data format concept created to simplify structured data representation beyond traditional JSON limitations. Developed by Sankar Srinivasan, petra.srini@gmail.com
-```
+
+> SJDF™ (Simple Just Data Format) is an original data format designed to simplify structured data beyond JSON. Developed by Sankar Srinivasan, petra.srini@gmail.com
 
 ---
