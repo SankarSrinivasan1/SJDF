@@ -5,7 +5,7 @@ SJDF — Simple Just Data Format. A ridiculously simple alternative to JSON. No 
 
 A human-friendly alternative to JSON.
 
-No bracket chaos.  
+No bracket confusions.  
 No comma bugs.  
 Just clean, readable data.
 
@@ -31,7 +31,17 @@ SJDF fixes that.
 {
   "user": {
     "name": "Sankar",
-    "age": 35,
+    "age": 58,
     "skills": ["stocks", "options"]
   }
 }
+
+---
+
+### SJDF
+```sjdf
+user:
+  name: Sankar
+  age: 58
+  skills: [stocks, options]
+```
