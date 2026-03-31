@@ -1,5 +1,5 @@
 # SJDF
-# ![SJDF](https://github.com/SankarSrinivasan1/SJDF/images/SJDF.png)
+![SJDF Logo](https://raw.githubusercontent.com/SankarSrinivasan1/SJDF/main/images/SJDF.png "SJDF")
 SJDF — Simple Just Data Format. A ridiculously simple alternative to JSON. No commas. No bracket confusions. Just clean, human-readable data.
 
 # SJDF — Simple Just Data Format
