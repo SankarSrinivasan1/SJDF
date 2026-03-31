@@ -4,16 +4,14 @@ SJDF supports two valid array styles:
 
 ---
 
-### 1. Block Array (Recommended for readability)
+### Block Array (Recommended for readability)
 
+```bash
 skills:
-
-stocks
-
-options
-
-risk management
-
+- stocks
+- options
+- risk management
+```
 
 Best for:
 - Long lists  
@@ -22,9 +20,14 @@ Best for:
 
 ---
 
-### 2. Inline Array (Compact style)
+### Inline Array (Compact style)
 
-user: name: Sankar age: 35 skills: [stocks, options]
+```bash
+user:
+name: Sankar
+age: 35
+skills: [stocks, options, risk]
+```
 
 Best for:
 - Short lists  
@@ -46,12 +49,12 @@ Do not mix styles within the same array.
 
 ❌ Invalid:
 
+```bash
 skills:
 
 stocks options
+```
 
-
-✅ Valid:
 Choose one style and stay consistent.
 
 ---
