@@ -4,7 +4,7 @@
 Version: 0.1  
 Status: Draft  
 Author: Sankar Srinivasan  
-Date: 2026  
+Date: 31st March 2026  
 
 ---
 
@@ -54,7 +54,9 @@ Each line represents a single key-value mapping.
 Nested objects are defined using indentation:
 
 ```bash
-user: name: Sankar age: 35
+user:
+name: Sankar
+age: 35
 ```
 
 Indentation MUST be consistent throughout the document.
