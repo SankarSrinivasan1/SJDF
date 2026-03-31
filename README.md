@@ -50,28 +50,34 @@ user:
 ---
 
 ### Rules
-1. Key-Value
+
+Key-Value
 '''bash
 key: value
 ```
 
 ### No quotes unless needed
+
 ```bash
 name: Sankar
 city: "New York"   # space → quotes required
 ```
 
 ### Nesting via indentation
+
 ```bash
 user:
   name: Sankar
 ```
 
 ### Arrays (clean style)
+
 ```bash
 skills: [stocks, options, risk]
 ```
+
 OR
+
 ```bash
 skills:
   - stocks
@@ -81,6 +87,7 @@ skills:
 ###No trailing commas (big win)
 
 ###Comments allowed
+
 ```bash
 # This is valid
 ```
