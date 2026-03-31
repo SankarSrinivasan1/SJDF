@@ -51,7 +51,7 @@ user:
 
 ## Rules
 
-### Key-Value
+### Key Value
 
 '''bash
 key: value
@@ -60,7 +60,7 @@ key: value
 ### No quotes unless needed
 
 ```bash
-name: Sankar
+name: John
 city: "New York"   # space → quotes required
 ```
 
@@ -68,7 +68,7 @@ city: "New York"   # space → quotes required
 
 ```bash
 user:
-  name: Sankar
+  name: John
 ```
 
 ### Arrays (clean style)
@@ -83,11 +83,12 @@ OR
 skills:
   - stocks
   - options
+  - risk
 ```
 
-###No trailing commas (big win)
+### No trailing commas (big win)
 
-###Comments allowed
+### Comments allowed
 
 ```bash
 # This is valid
