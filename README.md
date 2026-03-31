@@ -32,7 +32,7 @@ SJDF fixes that.
   "user": {
     "name": "John",
     "age": 35,
-    "skills": ["stocks", "options"]
+    "skills": ["stocks", "options", "risk"]
   }
 }
 ```
@@ -44,7 +44,7 @@ SJDF fixes that.
 user:
   name: John
   age: 35
-  skills: [stocks, options]
+  skills: [stocks, options, risk]
 ```
 
 ---
